@@ -1,0 +1,50 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    height: auto;
+    color: #FFF;
+    height: 30px;
+    z-index: 2;
+}
+
+.page-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 38px;
+    font-style: italic;
+    text-transform: capitalize;
+    z-index: 4;
+}
+
+.nav_bar {
+    margin: 20px 0;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    z-index: 3;
+}
+
+.body_nav {
+    text-decoration: none;
+    color: white;
+}
+
+.body_nav :hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.resumé {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.container {
+    display: flex;
+}

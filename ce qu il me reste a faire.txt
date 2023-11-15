@@ -1,0 +1,18 @@
+idee papa arthur: 
+    NBA:
+        Nom des equipes qui y joue
+        Historique des chambions NBA des dernieres annees
+        Historique des MVP NBA
+        https://www.basketusa.com/champions-nba/
+        https://www.basketusa.com/liste-equipe/
+    LNB:
+        Nom des equipes qui y joue
+        Historique des chambions LNB des dernieres annees
+        Historique des MVP LNB
+        https://www.lequipe.fr/Basket/HIST_PROA.html
+
+
+https://fr.wikipedia.org/wiki/Liste_des_joueurs_du_Basketball_Hall_of_Fame
+https://wesportfr.com/nba-palmares-de-la-ligue-delite-de-basket-americain/
+https://fr.wikipedia.org/wiki/Palmar%C3%A8s_du_championnat_de_France_de_basket-ball
+https://www.ffbb.com/equipe-de-france-masculine-palmares
