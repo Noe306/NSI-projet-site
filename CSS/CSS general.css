@@ -1,3 +1,10 @@
+/*police import: Agbalumo*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     position: sticky;
     top: 0;
@@ -9,6 +16,20 @@
     color: #FFF;
     height: 30px;
     z-index: 2;
+}
+
+footer{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.contenu-footer a,footer p a{
+    padding: 10px;
+    font-size: 18px;
+    color: whitesmoke;
 }
 
 .page-title{
@@ -33,18 +54,89 @@
 .body_nav {
     text-decoration: none;
     color: white;
+    padding: 5px;
 }
 
-.body_nav :hover {
+.body_nav:hover {
     text-decoration: underline;
     color: blue;
 }
 
+
+
 .resumé {
     text-align: center;
     font-family: Georgia, serif;
+
 }
 
 .container {
     display: flex;
 }
+.ligues{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.ligues:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#voir_plus{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#voir_plus:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#Serbe {
+    line-height: 2em;
+}
+
+#titre {
+    color: #563E69;
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+}
+
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+strong {
+    font-style: bold;
+}
+
+.bloc {
+    background-color: #8F9397;
+    padding: 20px 50px 50px 50px;
+    border-bottom: 1px solid white;
+    color: whitesmoke;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+.sous_part{
+    text-align: left;
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+ img{
+    padding: 10px;
+ }
+
+/*#99DD74*/
