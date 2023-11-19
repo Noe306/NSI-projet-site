@@ -4,7 +4,7 @@
     <title>Page d'acceuil</title>
 <!-- Importation de feuille de style servant a enlever tout les parametres de bases des naviguateurs afin que mon css ne rencontre pas de probleme de mise en place et d'une police -->
     <link rel="stylesheet" href="CSS/CSS general.css">
-    <link rel="stylesheet" href="CSS/Reset.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     <header class="header">
         <h1 class="page-title">Le Basket</h1>
         <nav class="nav_bar">
+            <a href="index.html" class="body_nav"><strong>Accueil</strong></a>
             <a href="nav_bar/Histoire du basket.html" class="body_nav"><strong>Son histoire</strong></a>
             <a href="nav_bar/Base du basket.html" class="body_nav"><strong>Les bases</strong></a>
             <a href="nav_bar/Compétition au basket.html" class="body_nav"><strong>La compétition</strong></a>
@@ -37,8 +38,11 @@
                    Il cherchait à avoir un sport qui impliquerait agilité, compétence athlétique et stratégie.
                 </p>
             </div>
-            <div class="image">
-                <img src="image/Naismith.jpg" alt="Image de James Naismith " height= "200" width = "auto">
+            <div>
+                <figure>
+                    <img src="image/Naismith.jpg" alt="Image de James Naismith " height= "200" width = "auto">
+                    <figcaption><p class="src">©<a href="https://www.canadaswalkoffame.com/inductee/dr-james-naismith">https://www.canadaswalkoffame.com/inductee/dr-james-naismith</a></p></figcaption>
+                </figure>
             </div>
         </div>
     </section>
