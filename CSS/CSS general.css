@@ -14,7 +14,6 @@ html {
 main {
     display: flex;
     flex-direction: column;
-    min-width: 1920px;
     max-width: 2000px;
 }  
 
@@ -41,7 +40,7 @@ body {
 
 li {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: underline;
 }
 
@@ -189,6 +188,11 @@ figcaption {
 }
 
 #regle{
+    list-style-position: inside;
+    text-align: center;
+}
+
+#evo_basket{
     list-style-position: inside;
     text-align: center;
 }
