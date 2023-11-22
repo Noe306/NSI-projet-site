@@ -9,14 +9,13 @@
 /*---------------------------------------- Balise HTML: -----------------------------------------------------*/
 html {
     scroll-behavior: smooth;
-
 }
 
 main {
     display: flex;
     flex-direction: column;
-    min-width: 50%;
-    max-width: 1920px;
+    min-width: 1920px;
+    max-width: 2000px;
 }  
 
 body{
@@ -43,6 +42,7 @@ body {
 li {
     font-weight: bold;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 p{
@@ -131,7 +131,7 @@ figcaption {
     display: flex;
 }
 .ligues{
-    color: whitesmoke;
+    color: #012F6B;
     text-decoration: none;
 }
 .ligues:hover{
@@ -157,6 +157,7 @@ figcaption {
     font-size: 100%;
     word-break: break-word;
 }
+
 
 /*------------------------------------------- Balise ID: ------------------------------------------------------*/
 #titre_liste{
@@ -185,6 +186,11 @@ figcaption {
     font-family: Stencil Std, fantasy;
     letter-spacing: 0.05em;
     text-decoration: underline;
+}
+
+#regle{
+    list-style-position: inside;
+    text-align: center;
 }
 
 /*Commentaire supplémentaire 
