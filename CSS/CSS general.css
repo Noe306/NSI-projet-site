@@ -160,6 +160,15 @@ figcaption {
 }
 
 
+.lien_src {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
 /*------------------------------------------- Balise ID: ------------------------------------------------------*/
 #titre_liste{
     color: rgb(16, 100, 72);
