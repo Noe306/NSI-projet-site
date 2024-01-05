@@ -65,6 +65,27 @@ figcaption {
     padding: 10px;
  }
 
+ table {
+    text-align: center;
+ }
+
+ thead {
+    background-color: rgb(82, 82, 194);
+    color: #fff;
+ }
+
+ th {
+    border: 1px solid #333;
+    padding: 5px; 
+ }
+
+
+ td{
+    border: 1px solid #333;
+    color: black;
+    padding: 5px;
+}
+
 /*----------------------------------------- Balise Class: ----------------------------------------------------*/
 .header {
     position: sticky;
@@ -165,8 +186,26 @@ figcaption {
     text-decoration: underline;
 }
 
+.titre {
+    font-size: 30px;
+    color: #563E69;
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
 
+}
 
+.tableau {
+    margin: 20px 0;
+    padding: 20px 20px 20px;
+    position: relative;
+    background-color: #A2A930;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-collapse: collapse; 
+}
 
 
 /*------------------------------------------- Balise ID: ------------------------------------------------------*/
@@ -190,13 +229,6 @@ figcaption {
     text-align: justify;
 }
 
-#titre {
-    color: #563E69;
-    text-align: center;
-    font-family: Stencil Std, fantasy;
-    letter-spacing: 0.05em;
-    text-decoration: underline;
-}
 
 #regle{
     list-style-position: inside;
