@@ -7,8 +7,6 @@
 */
 
 /*---------------------------------------- Balise HTML: -----------------------------------------------------*/
-@import  "tabulator-tables";
-
 html {
     scroll-behavior: smooth;
 }
@@ -85,6 +83,12 @@ figcaption {
     color: black;
     padding: 5px;
 }
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
 /*----------------------------------------- Balise Class: ----------------------------------------------------*/
 .header {
@@ -207,6 +211,14 @@ figcaption {
     border-collapse: collapse; 
 }
 
+.question {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.MauvaiseRep {
+    color: rgb(163, 20, 20);
+}
 
 /*------------------------------------------- Balise ID: ------------------------------------------------------*/
 #titre_liste{
@@ -240,10 +252,10 @@ figcaption {
     text-align: center;
 }
 
-/*Commentaire supplémentaire 
-
-couleur:
-    #99DD74 (vert citron)
-
-
-*/
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
