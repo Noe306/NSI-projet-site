@@ -155,6 +155,7 @@ button {
 
 .container {
     display: flex;
+    justify-content: center;
 }
 .ligues{
     color: #012F6B;
@@ -220,6 +221,10 @@ button {
     color: rgb(163, 20, 20);
 }
 
+.Categorie_et_nv{
+    margin: 25px;
+}
+
 /*------------------------------------------- Balise ID: ------------------------------------------------------*/
 #titre_liste{
     color: rgb(16, 100, 72);
@@ -247,6 +252,11 @@ button {
     text-align: center;
 }
 
+#postes{
+    list-style-position: inside;
+    text-align: center;
+}
+
 #evo_basket{
     list-style-position: inside;
     text-align: center;
@@ -259,3 +269,7 @@ button {
     flex-direction: column;
     justify-content: center;
   }
+
+#ligue_gen{
+    padding: 0px;
+}

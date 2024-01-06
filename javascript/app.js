@@ -43,7 +43,7 @@ function calculateScore() {
 
     // Question 5
     let q5Answer = document.querySelector('input[name="q5"]:checked');
-    if (q5Answer && q3Answer.value === "Jordan Loyd") {
+    if (q5Answer && q5Answer.value === "Jordan Loyd") {
       score++;
     }
     else {
